@@ -18,6 +18,7 @@ set shiftwidth=2        "auto indentation
 "UI config
 syntax on               "enable syntac processing
 set number              "show line numbers
+set relativenumber      "show relative line numbers
 filetype plugin indent on	"enable .ext specific indentation files
 "filetype indent on      "enable .vimrc indentation settings
 set showcmd             "show last command in bottom bar
