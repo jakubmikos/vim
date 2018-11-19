@@ -61,5 +61,9 @@ let g:syntastic_check_on_wq = 0
 "NERDTree
 "autocmd vimenter * NERDTree
 
+"VIM Wiki
+set nocompatible
+filetype plugin on
+
 "Key mappings
 inoremap jj <Esc>
