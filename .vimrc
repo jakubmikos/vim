@@ -6,6 +6,9 @@ if has("gui_running")
 endif
 colorscheme badwolf "colorscheme    
 
+"gvim
+set guioptions -=m
+
 "Pathogen
 execute pathogen#infect()
 
