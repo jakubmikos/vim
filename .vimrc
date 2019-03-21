@@ -3,11 +3,11 @@ if has("gui_running")
   if has("gui_win32")
     set guifont=Consolas:h11:cANSI  "windows font
   endif
+  "disable menu in gvim
+  set guioptions -=m
 endif
 colorscheme badwolf "colorscheme    
 
-"gvim
-set guioptions -=m
 
 "Pathogen
 execute pathogen#infect()
@@ -30,6 +30,7 @@ set wildmenu            "visual autocomplete for command menu
 set lazyredraw          "redraw only when we need to
 set showmatch           "highlight matching [{()}]
 set hlsearch            "highlight search
+set wildmenu            "enable wildmenu
 
 " Instead of failing a command because of unsaved changes, instead raise a
 " dialogue asking if you wish to save changed files.
