@@ -32,6 +32,9 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
-[submodule "bundle/vim-taskwariior"]
-	path = bundle/vim-taskwariior
-	url = https://github.com/farseer90718/vim-taskwarrior
+[submodule "bundle/vim-taskwarrior"]
+	path = bundle/vim-taskwarrior
+	url = https://github.com/blindFS/vim-taskwarrior
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline
