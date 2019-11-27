@@ -69,5 +69,12 @@ let g:syntastic_check_on_wq = 0
 set nocompatible
 filetype plugin on
 
+"OmniSharp
+let g:ale_linters = {
+      \ 'cs': ['OmniSharp']
+      \ }
+
+let g:OmniSharp_selector_ui = 'ctrlp'
+
 "Key mappings
 inoremap jj <Esc>
