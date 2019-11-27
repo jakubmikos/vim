@@ -26,3 +26,12 @@
 [submodule "bundle/taskwiki"]
 	path = bundle/taskwiki
 	url = https://github.com/tbabej/taskwiki.git
+[submodule "bundle/vim-plugin-AnsiEsc"]
+	path = bundle/vim-plugin-AnsiEsc
+	url = https://github.com/powerman/vim-plugin-AnsiEsc
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar
+[submodule "bundle/vim-taskwariior"]
+	path = bundle/vim-taskwariior
+	url = https://github.com/farseer90718/vim-taskwarrior
