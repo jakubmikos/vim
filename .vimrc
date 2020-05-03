@@ -53,7 +53,11 @@ set runtimepath^=~/vimfiles/bundle/ctrlp.vim
 let g:jsx_ext_required = 0  "Allow JSX in normal JS file
 
 "NERDTree
-"autocmd vimenter * NERDTree
+if has("gui_running")
+  if has("gui_win32")
+    autocmd vimenter * NERDTree c:\Projects
+  endif
+endif
 
 "VIM Wiki
 set nocompatible
