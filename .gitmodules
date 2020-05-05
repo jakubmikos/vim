@@ -23,18 +23,12 @@
 [submodule "bundle/colorizer"]
 	path = bundle/colorizer
 	url = https://github.com/lilydjwg/colorizer.git
-[submodule "bundle/taskwiki"]
-	path = bundle/taskwiki
-	url = https://github.com/tbabej/taskwiki.git
 [submodule "bundle/vim-plugin-AnsiEsc"]
 	path = bundle/vim-plugin-AnsiEsc
 	url = https://github.com/powerman/vim-plugin-AnsiEsc
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
-[submodule "bundle/vim-taskwarrior"]
-	path = bundle/vim-taskwarrior
-	url = https://github.com/blindFS/vim-taskwarrior
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline
