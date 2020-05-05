@@ -1,7 +1,7 @@
 "fonts and colors
 if has("gui_running")
   if has("gui_win32")
-    set guifont=Consolas:h11:cANSI  "windows font
+    set guifont=Consolas:h10:cANSI  "windows font
   endif
   "disable menu in gvim
   set guioptions -=m
