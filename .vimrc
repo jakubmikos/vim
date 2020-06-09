@@ -6,8 +6,9 @@ if has("gui_running")
   "disable menu in gvim
   set guioptions -=m
 endif
-colorscheme badwolf "colorscheme    
 
+colorscheme solarized "colorscheme    
+set background=dark   "solarized dark theme
 
 "Pathogen
 execute pathogen#infect()
